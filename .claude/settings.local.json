@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(python -c:*)",
+      "Bash(.venv/bin/python:*)",
+      "Bash(python:*)",
+      "Bash(timeout 30 .venv/bin/python:*)"
+    ]
+  }
+}
